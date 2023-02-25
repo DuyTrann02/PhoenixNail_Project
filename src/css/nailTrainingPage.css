@@ -1,0 +1,22 @@
+@media only screen and (max-width:950px){
+    #content1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+}
+@media only screen and (min-width:951px){
+    #content1{
+        display: flex;
+        width: 95vw;
+        
+        
+    }
+    #banner1{
+        width: 40vw;
+        
+        
+    }
+}

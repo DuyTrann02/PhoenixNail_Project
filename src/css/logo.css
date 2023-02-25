@@ -1,0 +1,57 @@
+#header {
+    background-color: rgba(40, 38, 38, 0.8); /* hoặc rgba(0, 0, 0, 0.5) nếu muốn màu đen */
+    box-shadow: 0px 4px 4px;
+    padding: 2px;
+    position: fixed;
+    z-index: 7;
+
+  }
+#logo{
+    width:20vw;
+    margin-left: 2vw;
+}
+
+#slogan{
+    width: 35vw;
+    margin-right: 60vh;
+    margin-top: 3vh;
+}
+
+@media only screen and (max-width:419px){
+    
+#logo{
+    width: 40vw;
+    margin-left: 2vw;
+}
+#header{
+    height: 9vh;
+}
+#slogan{
+    width: 55vw;
+    margin-top: 2.8vh;
+    margin-right: 1.4vw;
+}
+
+}
+@media only screen and (min-width:420px){
+    
+    
+    #header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   
+    }
+    #slogan{
+        
+        
+        margin-top: 0%;
+    }
+    #sloganContainer{
+        
+        padding-left: 32%;
+        width: 100%;
+        
+    }
+
+}

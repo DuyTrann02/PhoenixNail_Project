@@ -1,0 +1,13 @@
+@media only screen and (min-width:951px){
+    #container{
+        width: 70px;
+        height: 70px;
+        margin-left: 90vw;
+    }
+}
+@media only screen and (max-width:950px){
+    #container{
+        width: 55px;
+        height:55px;
+    }
+}

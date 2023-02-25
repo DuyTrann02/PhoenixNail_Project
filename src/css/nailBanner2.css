@@ -1,0 +1,78 @@
+@media only screen and (min-width:951px){
+#box2{
+    margin-top: 5vh;
+    height: 40vh;
+    margin-left: 2.5vw;
+    
+}
+.buttonBox2{
+    z-index: 3;
+    position: absolute;
+    width: 35vw;
+    height: 40vh;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
+.slide-container2 {
+    width: 35vw;
+    height: 100%;
+    overflow: hidden;
+    
+}
+#slides2{
+    
+    z-index: 2;
+    display: flex;
+    border-radius: 2;
+    transition: 1s all;
+}
+.slide2 {
+    width: 35vw;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+}
+@media only screen and (max-width:950px){
+    control{
+        flex-basis: 100px;
+        
+    }
+    #box2{
+        height: 25vh;
+        margin-top: 2vh;
+    }
+    .buttonBox2{
+        z-index: 3;
+        position: absolute;
+        width: 90vw;
+        height: 25vh;
+        display:flex;
+        justify-content: space-between;
+        
+    }
+    
+    
+    .slide-container2 {
+        width: 90vw;
+        height: 25vh;
+        overflow: hidden;
+        
+    }
+    #slides2{
+        
+        z-index: 2;
+        display: flex;
+        border-radius: 2;
+        transition: 1s all;
+    }
+    .slide2 {
+        width: 90vw;
+        height: 25vh;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
